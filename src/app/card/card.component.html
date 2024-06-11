@@ -1,0 +1,14 @@
+<div *ngIf="userData" >
+    <div *ngFor="let user of userData.results" class="card" style="width: 18rem;">
+        <img [src]="user.picture.large" class="card-img-top"  alt="User Image">
+        <div class="card-body">
+          <h5 class="card-title">Name: {{ user.name.first }} {{ user.name.last }}</h5>
+          <p class="card-text">Country: {{ user.location.country }}</p>
+          <p class="card-text">City: {{ user.location.city }}</p>
+          <p class="card-text">Email: {{ user.email }}</p>
+          <p class="card-text">Phone: {{ user.phone }}</p>
+          <p class="card-text">Cell: {{ user.cell }}</p>
+          <p class="card-text">Username: {{ user.login.username }}</p>
+        </div>
+    </div>
+</div>
