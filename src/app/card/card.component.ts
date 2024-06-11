@@ -21,7 +21,7 @@ export class CardComponent implements OnInit {
     this.randomuser.get('https://randomuser.me/api/')
     .subscribe(respuesta => {
       this.userData = respuesta; // Assuming results is an array with user data
-      console.log('userData -->', this.userData);
+      // console.log('userData -->', this.userData);
     })
   }
 
