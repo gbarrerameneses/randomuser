@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { UserPlaceholderService } from '../user-placeholder.service';
+import { UserPlaceholderService } from '../../services/user-placeholder.service';
 
 @Component({
   selector: 'app-user',

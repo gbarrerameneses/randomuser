@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RandomuserService } from '../randomuser.service';
+import { RandomuserService } from '../../services/randomuser.service';
 
 
 @Component({
